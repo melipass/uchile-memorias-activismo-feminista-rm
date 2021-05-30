@@ -1,0 +1,53 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	9 -> Conchalí;
+	9 -> Conchalí;
+	9 -> Conchali;
+	9 -> Huechuraba;
+	9 -> Renca;
+	9 -> "Cerro Navia";
+	9 -> "Cerro Navia";
+	9 -> "Cerro Navia";
+	9 -> Independencia;
+	9 -> Independencia;
+	9 -> "Lo Prado";
+	9 -> "Quinta Normal";
+	9 -> "Quinta Normal";
+	9 -> "Quinta Normal";
+	9 -> "Quinta Normal";
+	9 -> "Quinta Normal";
+	9 -> Recoleta;
+	9 -> "Zona Norte";
+	Conchalí -> "Asociación Mapuche Conchalí"	[minlen=1];
+	Conchalí -> "Olla Común Conchalí"	[minlen=2];
+	Conchali -> "Colectiva Kullay Conchalí"	[minlen=1];
+	Huechuraba -> "Agrupacion de Allegados
+ de Huechuraba"	[minlen=1];
+	Renca -> "Comité de Mujeres Renca"	[minlen=1];
+	"Cerro Navia" -> "Asamblea Cerro 
+ Navia Feminista"	[minlen=1];
+	"Cerro Navia" -> "Cerro Navia Pedalea"	[minlen=2];
+	"Cerro Navia" -> "Cerro Navia Participa"	[minlen=1];
+	Independencia -> "Asamblea Territorial
+ de Independencia"	[minlen=1];
+	Independencia -> "Asamblea Plaza San Luis"	[minlen=2];
+	"Lo Prado" -> "Pedal Lo Prado"	[minlen=1];
+	"Quinta Normal" -> "Asamblea Popular Lo Besa"	[minlen=1];
+	"Quinta Normal" -> "Asamblea Territorial QN";
+	"Quinta Normal" -> "Asamblea Territorial QN";
+	"Quinta Normal" -> "Asamblea Barrio Lourdes"	[minlen=2];
+	"Quinta Normal" -> "Asamblea Los Sauces"	[minlen=1];
+	Recoleta -> "Las Pobladoras Recoleta"	[minlen=1];
+	"Zona Norte" -> "Coordinadora Feminista
+ Norte"	[minlen=1];
+}

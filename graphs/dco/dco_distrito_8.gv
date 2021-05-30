@@ -1,0 +1,119 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Colina;
+	8 -> Lampa;
+	8 -> Lampa;
+	8 -> Lampa;
+	8 -> "Til Til";
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Pudahuel;
+	8 -> Quilicura;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> Cerrillos;
+	8 -> "Estación Central";
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	8 -> Maipú;
+	Colina -> "Modatima Colina"	[minlen=1];
+	Colina -> "Fundación Canquén Verde"	[minlen=2];
+	Colina -> "Colina Feminista"	[minlen=1];
+	Colina -> "Con las amigas y en Casa Colina"	[minlen=2];
+	Colina -> "Río Colina"	[minlen=1];
+	Colina -> "Movimiento Socio-Ambiental
+ Investiga Colina"	[minlen=2];
+	Colina -> "Feministas Kolina"	[minlen=1];
+	Colina -> "Flora Nativa Colina"	[minlen=2];
+	Colina -> "Acción Ambiental Colina"	[minlen=1];
+	Colina -> "Imagina Colina"	[minlen=2];
+	Colina -> "Gritonxs Colina"	[minlen=1];
+	Colina -> "Colina Mujeres Unidas"	[minlen=2];
+	Colina -> "Brujas Liceo San Sebastián
+ de Colina"	[minlen=1];
+	Colina -> "Las Perras Violetas"	[minlen=2];
+	Lampa -> "Brigada Ramona
+ Parra Lampa"	[minlen=1];
+	Lampa -> BatucoFem	[minlen=2];
+	Lampa -> "Feministas Lampa"	[minlen=1];
+	"Til Til" -> "Asociación Progresistas
+ de Til Til"	[minlen=1];
+	Pudahuel -> "Sororas y revolucionarias
+ Pudahuel"	[minlen=1];
+	Pudahuel -> "Asamblea Popular
+ de Pudahuel"	[minlen=2];
+	Pudahuel -> "Colectiva Periferikas Pudahuel"	[minlen=1];
+	Pudahuel -> "Colectiva Perra Kiltra"	[minlen=2];
+	Pudahuel -> "Acción Furtar"	[minlen=1];
+	Pudahuel -> "Pedahuel Fem"	[minlen=2];
+	Pudahuel -> "Cletahuel Norte"	[minlen=1];
+	Pudahuel -> "Colectiva Criando Ando"	[minlen=2];
+	Quilicura -> "Resistencia SocioAmbiental
+ Quilicura"	[minlen=1];
+	Cerrillos -> "A la Suerte de la Olla"	[minlen=1];
+	Cerrillos -> Cerrilleras	[minlen=2];
+	Cerrillos -> "Asamblea General Cerrillos"	[minlen=1];
+	Cerrillos -> "Movimiento Socioambiental
+ Cerrillos (MOSACAT)"	[minlen=2];
+	Cerrillos -> "Cooperativa Popular
+ de Apoyo Mutuo"	[minlen=1];
+	Cerrillos -> "Coordinadora Feminista
+ Teresa Flores Cerrillos"	[minlen=2];
+	Cerrillos -> "Acción Comunitaria Cerillos"	[minlen=1];
+	Cerrillos -> "Coordinadora Gabriela Paz"	[minlen=2];
+	"Estación Central" -> "Red Mujeres
+ Estación Central"	[minlen=1];
+	Maipú -> "AniMalas Colectiva"	[minlen=1];
+	Maipú -> "Rotas Movilizadas
+ Las Parcelas"	[minlen=2];
+	Maipú -> "Asamblea Mujeres
+ y Disidencias"	[minlen=1];
+	Maipú -> "Asamblea de Mujeres
+ y Disidencias Maipú"	[minlen=2];
+	Maipú -> "Colectiva Gatas Negras"	[minlen=1];
+	Maipú -> "Orgánica Maipú"	[minlen=2];
+	Maipú -> "Asamblea Territorial
+ La Farfana"	[minlen=1];
+	Maipú -> "Colectiva AlhueFem"	[minlen=2];
+	Maipú -> "Fémina. Traslado
+ Feminsta Maipú"	[minlen=1];
+}

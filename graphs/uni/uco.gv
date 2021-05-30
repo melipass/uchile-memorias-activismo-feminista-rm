@@ -1,0 +1,106 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Instituto Profesional DUOC UC" -> "Sede San Carlos de Apoquindo"	[minlen=1];
+	"Sede San Carlos de Apoquindo" -> "Secretaría de Género
+DUOC UC SC"	[minlen=1];
+	"Universidad de Chile" -> FCFM;
+	"Universidad de Chile" -> FCFM;
+	"Universidad de Chile" -> FCFM;
+	"Universidad de Chile" -> FCFM;
+	"Universidad de Chile" -> "Campus Sur";
+	"Universidad de Chile" -> "Campus Sur";
+	"Universidad de Chile" -> Artes;
+	"Universidad de Chile" -> Ciencias;
+	"Universidad de Chile" -> FCQyF;
+	"Universidad de Chile" -> FCQyF;
+	"Universidad de Chile" -> "Ciencas Sociales";
+	"Universidad de Chile" -> INAP;
+	"Universidad de Chile" -> Derecho;
+	"Universidad de Chile" -> FEN;
+	"Universidad de Chile" -> FFyHH;
+	"Universidad de Chile" -> FFyHH;
+	"Universidad de Chile" -> Medicina;
+	"Universidad de Chile" -> Medicina;
+	"Universidad de Chile" -> ICEI;
+	"Universidad de Chile" -> ICEI;
+	FCFM -> "Secretaría de Sexualidades
+y Género Beauchef"	[minlen=1];
+	FCFM -> "Asamblea Beauchefianas"	[minlen=2];
+	FCFM -> "Colectiva Justicia Espada"	[minlen=1];
+	FCFM -> "Beauchef Diverso"	[minlen=2];
+	"Campus Sur" -> "Secretaría de Sexualidades
+y Género Antumapu"	[minlen=1];
+	"Campus Sur" -> "Orgullo Campus Sur"	[minlen=2];
+	Artes -> "Asamblea Feminista Encinas"	[minlen=1];
+	Ciencias -> "Secretaría de Sexualidades
+y Género Ciencias"	[minlen=1];
+	FCQyF -> "Secretaria de Sexualidades
+y Género Cs Químicas"	[minlen=1];
+	FCQyF -> "Acción Feminista
+FaCIQyF"	[minlen=2];
+	"Ciencas Sociales" -> "Toma Feminista Facso"	[minlen=1];
+	INAP -> Diversinap	[minlen=1];
+	Derecho -> "Secretaría de Género y
+Sexualidades Derecho"	[minlen=1];
+	FEN -> "Secretaría Feminista FEN"	[minlen=1];
+	FFyHH -> "Dirección de Igualdad
+de Género y
+Diversidades Sexuales"	[minlen=1];
+	FFyHH -> "Secretaría de Sexualidades
+y Género Humanidades"	[minlen=2];
+	Medicina -> "Asamblea Mujeres Salud"	[minlen=1];
+	Medicina -> "Secretaría de Sexualidades
+y Géneros Salud"	[minlen=2];
+	ICEI -> "Secretaría de Sexualidades
+y Géneros ICEI"	[minlen=1];
+	ICEI -> "Feministas ICEI"	[minlen=2];
+	"Universidad Andres Bello" -> "Campus Casona";
+	"Universidad Andres Bello" -> "Campus República";
+	"Campus Casona" -> "Secretaría de Género y
+Diversidad Sexual Casona"	[minlen=1];
+	"Campus República" -> "Secretaría de Género y
+Diversidad Sexual Republica"	[minlen=1];
+	"Universidad Central" -> "Facultad de Educación"	[minlen=1];
+	"Facultad de Educación" -> "Asamblea de
+Mujeres FECS"	[minlen=1];
+	"Universidad de Santiago de Chile" -> "Dpto. Educación"	[minlen=1];
+	"Dpto. Educación" -> "Secretaría de Sexualidades
+y Género EGB"	[minlen=1];
+	"Universidad de Valparaíso" -> Santiago;
+	"Universidad de Valparaíso" -> Santiago;
+	Santiago -> "Disidentes UV Santiago"	[minlen=1];
+	Santiago -> "Colectiva 
+Comandante Ramona"	[minlen=2];
+	"Universidad Diego Portales" -> FCSH;
+	"Universidad Diego Portales" -> FDE;
+	"Universidad Diego Portales" -> "Facultad de Salud y Odontología";
+	FCSH -> "Secretaría de Sexualidades
+y Género FCSH"	[minlen=1];
+	FDE -> "Secretaría de Género
+y Sexualidades FDE"	[minlen=1];
+	"Facultad de Salud y Odontología" -> "Secretaría de Género y
+Sexualidades OBSTE UDP"	[minlen=1];
+	"Universidad Mayor" -> "Sede Santiago";
+	"Universidad Mayor" -> "Sede Temuco";
+	"Sede Santiago" -> "Vocalía de Género y
+Sexualidades UMayor"	[minlen=1];
+	"Sede Temuco" -> "Serendipia Queer"	[minlen=1];
+	"Universidad San Sebastián" -> "Facultad de Medicina y Ciencia"	[minlen=1];
+	"Facultad de Medicina y Ciencia" -> "Secretaría de Sexualidades
+y Género Medicina"	[minlen=1];
+	"Universidad Técnica Federico Santa María" -> "Casa Central";
+	"Universidad Técnica Federico Santa María" -> "Casa Central";
+	"Casa Central" -> "VODIGEX UTFSM"	[minlen=1];
+	"Casa Central" -> "Movimiento Feminista
+UTFSM CC"	[minlen=2];
+}

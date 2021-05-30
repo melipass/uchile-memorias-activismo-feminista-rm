@@ -1,0 +1,20 @@
+// mcm
+digraph {
+	graph [K=4 nodesep=0 overlap=false pad=1 rankdir=LR repulsiveforce=1]
+	node [color=lavender fontsize=36 style=filled]
+	"Periodismo Digital Independiente" -> "La Otra Diaria"
+	"Periodismo Digital Independiente" -> "Aurora del Nuevo Chile"
+	"Periodismo Digital Independiente" -> "Feministas Informadas"
+	"Periodismo Digital Independiente" -> "Mujeres en el Medio"
+	"Medio Digital" -> "Revista Futfem"
+	"Medio Digital" -> "Feministas Hoy"
+	"Medio Digital" -> "Canal Autónoma Feminista"
+	"Medio Digital" -> "La Voz de los que Sobran"
+	"Medio Digital" -> ContraGolpe
+	"Programa Radial" -> "Agenda de Género"
+	"Programa Radial" -> Inquietas
+	"Programa Radial" -> "Radio Kurruf"
+	Podcast -> "Todas en Acción"
+	"Difusión" -> "La Resistencia Maipú"
+	"Difusión" -> "Las Terrible Jugosas"
+}

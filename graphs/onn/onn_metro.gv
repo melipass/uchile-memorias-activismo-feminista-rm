@@ -1,0 +1,121 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Región Metropolitana General" -> Asamblea;
+	"Región Metropolitana General" -> Brigada;
+	"Región Metropolitana General" -> Colectiva;
+	"Región Metropolitana General" -> Colectiva;
+	"Región Metropolitana General" -> Colectiva;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> Colectivo;
+	"Región Metropolitana General" -> "Colectivo Estudiantil";
+	"Región Metropolitana General" -> "Colectivo Universitario";
+	"Región Metropolitana General" -> Cooperativa;
+	"Región Metropolitana General" -> Coordinadora;
+	"Región Metropolitana General" -> Coordinadora;
+	"Región Metropolitana General" -> Coordinadora;
+	"Región Metropolitana General" -> Coordinadora;
+	"Región Metropolitana General" -> "Coordinadora estudiantil";
+	"Región Metropolitana General" -> Corporación;
+	"Región Metropolitana General" -> Corporación;
+	"Región Metropolitana General" -> "Difusión de Información";
+	"Región Metropolitana General" -> "Difusión de Información";
+	"Región Metropolitana General" -> Fundación;
+	"Región Metropolitana General" -> Observatorio;
+	"Región Metropolitana General" -> Organización;
+	"Región Metropolitana General" -> Organización;
+	"Región Metropolitana General" -> "Organización comunitaria";
+	"Región Metropolitana General" -> "Organización de la Sociedad Civil";
+	"Región Metropolitana General" -> "Organización de la Sociedad Civil";
+	"Región Metropolitana General" -> "Organización Política";
+	"Región Metropolitana General" -> "Organización transnacional";
+	"Región Metropolitana General" -> Red;
+	"Región Metropolitana General" -> Red;
+	"Región Metropolitana General" -> Red;
+	"Región Metropolitana General" -> Red;
+	"Región Metropolitana General" -> Red;
+	Asamblea -> "Asamblea Lesbofeminista
+Región Metropolitana"	[minlen=1];
+	Brigada -> "Brigada de Comunicación
+Feminista BRICOFEM"	[minlen=1];
+	Colectiva -> "Colectiva La Insistente"	[minlen=1];
+	Colectiva -> "Baila Capucha Baila"	[minlen=2];
+	Colectiva -> Autocoria	[minlen=1];
+	Colectivo -> "Feministas Lúcidas"	[minlen=1];
+	Colectivo -> "Colectivo La Vespertina"	[minlen=2];
+	Colectivo -> "Feminista Chile FEMChile"	[minlen=1];
+	Colectivo -> "Carpa de las Mujeres"	[minlen=2];
+	Colectivo -> "La Pandemia Feminista"	[minlen=1];
+	Colectivo -> "Hartas Mujeres"	[minlen=2];
+	Colectivo -> "Colectivo CUECA SOLA"	[minlen=1];
+	Colectivo -> "Brigada Propaganda Feminista"	[minlen=2];
+	Colectivo -> "Colectivo Mujer y Palabra"	[minlen=1];
+	Colectivo -> "Colectiva Obsidiana"	[minlen=2];
+	Colectivo -> Femisferia	[minlen=1];
+	Colectivo -> "Colectiva de Colocolinas
+Irene Velásquez."	[minlen=2];
+	"Colectivo Estudiantil" -> "Colectivo Lemebel"	[minlen=1];
+	"Colectivo Universitario" -> "Surgencia UC"	[minlen=1];
+	Cooperativa -> "Cooperativa Mujeres
+Manos Libres"	[minlen=1];
+	Coordinadora -> "Asamblea
+Feminista Plurinacional"	[minlen=1];
+	Coordinadora -> "Coordinadora
+Feministas en Lucha"	[minlen=2];
+	Coordinadora -> "Coordinadora 8M"	[minlen=1];
+	Coordinadora -> "Coordinadora
+19 de Diciembre"	[minlen=2];
+	"Coordinadora estudiantil" -> COFEU	[minlen=1];
+	Corporación -> "Coorporación Chilena de
+personas Trans Amanda Jofré"	[minlen=1];
+	Corporación -> APROFA	[minlen=2];
+	"Difusión de Información" -> "Esmifiesta.mag"	[minlen=1];
+	"Difusión de Información" -> "Mujeres Bacanas"	[minlen=2];
+	Fundación -> "Fundación Anita"	[minlen=1];
+	Observatorio -> "Observatorio Contra el
+Acoso Callejero OCAC"	[minlen=1];
+	Organización -> Añañuca	[minlen=1];
+	Organización -> "Pedaleras Antipatriarcas"	[minlen=2];
+	"Organización comunitaria" -> "Memorías de
+Rebeldía Feminista"	[minlen=1];
+	"Organización de la Sociedad Civil" -> "Juntas en Acción"	[minlen=1];
+	"Organización de la Sociedad Civil" -> "Fundación Contra el
+Femicidio con Javiera
+en la Memoria"	[minlen=2];
+	"Organización Política" -> "Órgano Anarco-Feminista
+Santiago"	[minlen=1];
+	"Organización transnacional" -> "Mil Agujas por la Dignidad"	[minlen=1];
+	Red -> "Psifem. Red Feminista
+de Estudiantes y Trabajadoras
+de la Psicología RM"	[minlen=1];
+	Red -> "Red Chilena de
+Profesionales por
+el Derecho a Decidir"	[minlen=2];
+	Red -> "Medicas Feministas"	[minlen=1];
+	Red -> "Red Chilena contra
+la Violencia hacia las
+Mujeres -ex Red Chilena
+contra la Violencia
+Doméstica y Sexual-"	[minlen=2];
+	Red -> "Mesa de Acción
+por el Aborto en Chile"	[minlen=1];
+}

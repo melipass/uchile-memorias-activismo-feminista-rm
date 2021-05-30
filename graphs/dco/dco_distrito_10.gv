@@ -1,0 +1,98 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> "Comuna de Santiago";
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Ñuñoa;
+	10 -> Providencia;
+	10 -> Providencia;
+	10 -> Providencia;
+	10 -> "La Granja";
+	10 -> "La Granja";
+	10 -> "La Granja";
+	10 -> Macul;
+	10 -> Macul;
+	10 -> Macul;
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	10 -> "San Joaquín";
+	"Comuna de Santiago" -> "Preuniversitario
+ Mara Rita"	[minlen=1];
+	"Comuna de Santiago" -> ConcienciaFem	[minlen=2];
+	"Comuna de Santiago" -> "Kilombo Negrocentricxs"	[minlen=1];
+	"Comuna de Santiago" -> "Colectiva Feminista
+ Santa Ana"	[minlen=2];
+	"Comuna de Santiago" -> "Lesbodisidentes
+ de Abya Yala"	[minlen=1];
+	"Comuna de Santiago" -> "Viaja Segura"	[minlen=2];
+	"Comuna de Santiago" -> "Colectivo Cons-pirando"	[minlen=1];
+	"Comuna de Santiago" -> "Colectivo Agar"	[minlen=2];
+	"Comuna de Santiago" -> "Rangiñtulewfü Colectivo Mapuche
+ (Ex Colectivo mapuche feminista Rangiñtulewfü)"	[minlen=1];
+	"Comuna de Santiago" -> "Acción Ecuménica contra la
+ violencia hacia las mujeres"	[minlen=2];
+	Ñuñoa -> "Colectivo Feminista
+ Secundario Amanda Labarca
+ y Olga Poblete"	[minlen=1];
+	Ñuñoa -> "Feministas Ñuñoa"	[minlen=2];
+	Ñuñoa -> "Feministas Plaza Franke"	[minlen=1];
+	Ñuñoa -> "Grupo de Estudios
+ Mujeres Decolonizando"	[minlen=2];
+	Ñuñoa -> "Sororas Cambatientes"	[minlen=1];
+	Ñuñoa -> "Asamblea Feminista
+ Villa Frei"	[minlen=2];
+	Ñuñoa -> "Asamblea Feminista
+ Plaza Ñuñoa"	[minlen=1];
+	Ñuñoa -> "Asamblea de
+ Mujeres Disidentes"	[minlen=2];
+	Providencia -> "Colectivo Inés de Suarez"	[minlen=1];
+	Providencia -> FEMTEI	[minlen=2];
+	Providencia -> "Feministas Providencia"	[minlen=1];
+	"La Granja" -> "Asamblea Popular VUSA"	[minlen=1];
+	"La Granja" -> "Movimiento Femenino
+ Bahía Catalina"	[minlen=2];
+	"La Granja" -> "Poder Femenino
+ La Granja"	[minlen=1];
+	Macul -> "Mujeres Organizadas
+ VIMA SUR"	[minlen=1];
+	Macul -> "Mujeres de Macul"	[minlen=2];
+	Macul -> "Mujeres Sobreviventes
+ Siempre Resistentes"	[minlen=1];
+	"San Joaquín" -> "Feminsitas Legua"	[minlen=1];
+	"San Joaquín" -> "Comisión de Género
+ San Joaquín"	[minlen=2];
+	"San Joaquín" -> "San Joaquin Unidas"	[minlen=1];
+	"San Joaquín" -> "Club Social y Deportivo
+ Marielle Franco"	[minlen=2];
+	"San Joaquín" -> "Colectiva Las Joaquinas"	[minlen=1];
+	"San Joaquín" -> "Feministas San Joaquín"	[minlen=2];
+	"San Joaquín" -> "Colectivo Ketra"	[minlen=1];
+}

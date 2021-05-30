@@ -1,0 +1,73 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	12 -> Pirque;
+	12 -> Pirque;
+	12 -> Pirque;
+	12 -> "Puente Alto";
+	12 -> "Puente Alto";
+	12 -> "Puente Alto";
+	12 -> "Puente Alto";
+	12 -> "Puente Alto";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "San José de Maipo";
+	12 -> "La Florida";
+	12 -> "La Florida";
+	12 -> "La Florida";
+	12 -> "La Florida";
+	12 -> "La Florida";
+	12 -> "La Florida";
+	12 -> "La Pintana";
+	12 -> "La Pintana";
+	12 -> "La Pintana";
+	Pirque -> "Feministas x Pirque"	[minlen=1];
+	Pirque -> "Colectiva Rural
+ La Trenza"	[minlen=2];
+	Pirque -> "Feministas Pirque"	[minlen=1];
+	"Puente Alto" -> "AFEM Puente Alto"	[minlen=1];
+	"Puente Alto" -> "Colectiva Alba Violeta"	[minlen=2];
+	"Puente Alto" -> "Red de Mujeres de 
+ Puente Alto por La
+ Igualdad de Derechos"	[minlen=1];
+	"Puente Alto" -> "Las Candelarias
+ Puente Alto"	[minlen=2];
+	"Puente Alto" -> "Paquenu Puente Alto"	[minlen=1];
+	"San José de Maipo" -> "Ni Una Menos
+ Población Victoria"	[minlen=1];
+	"San José de Maipo" -> "Jovenes Cajoninas"	[minlen=2];
+	"San José de Maipo" -> "Resistencia Feminista Maipo"	[minlen=1];
+	"San José de Maipo" -> "Mujeres del Maipo"	[minlen=2];
+	"San José de Maipo" -> "Colectivo Vamos Mujer"	[minlen=1];
+	"San José de Maipo" -> "Apruebo Mujer
+ San José de Maipo"	[minlen=2];
+	"San José de Maipo" -> "Mesa de Mujeres
+ Cajón del Maipo"	[minlen=1];
+	"La Florida" -> "Red Feminista La Florida"	[minlen=1];
+	"La Florida" -> "Asamblea Feminista
+ Maleza Silvestre"	[minlen=2];
+	"La Florida" -> "Asamblea de
+ Mujeres Trinidad"	[minlen=1];
+	"La Florida" -> "Circulo Mujeres
+ Organizadas"	[minlen=2];
+	"La Florida" -> "Colectiva Sorora"	[minlen=1];
+	"La Florida" -> "Colectivo Teresa Flores"	[minlen=2];
+	"La Pintana" -> "Movimiento Feminista
+ La Pintana"	[minlen=1];
+	"La Pintana" -> "Casa de la Mujer
+ Gabriela"	[minlen=2];
+	"La Pintana" -> "Feministas La Pintana"	[minlen=1];
+}

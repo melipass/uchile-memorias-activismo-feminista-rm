@@ -1,0 +1,66 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	14 -> Buin;
+	14 -> Buin;
+	14 -> "Calera de Tango";
+	14 -> "Calera de Tango";
+	14 -> "Calera de Tango";
+	14 -> Paine;
+	14 -> Paine;
+	14 -> "San Bernardo";
+	14 -> "San Bernardo";
+	14 -> "San Bernardo";
+	14 -> "San Bernardo";
+	14 -> "San Bernardo";
+	14 -> Alhué;
+	14 -> Curacaví;
+	14 -> "Maria Pinto";
+	14 -> Melipilla;
+	14 -> Melipilla;
+	14 -> Melipilla;
+	14 -> "El Monte";
+	14 -> "Isla de Maipo";
+	14 -> "Padre Hurtado";
+	14 -> Peñaflor;
+	14 -> Talagante;
+	14 -> Talagante;
+	14 -> Talagante;
+	Buin -> "Colectiva Feminista Buin"	[minlen=1];
+	Buin -> "Voces Feministas Buin"	[minlen=2];
+	"Calera de Tango" -> "Alerta Mujeres Calera de Tango"	[minlen=1];
+	"Calera de Tango" -> "Las Guachas de Tango"	[minlen=2];
+	"Calera de Tango" -> "Violetas de Hierro"	[minlen=1];
+	Paine -> "Aquelarre Feminista Paine"	[minlen=1];
+	Paine -> "Coordinadora Feminista Paine"	[minlen=2];
+	"San Bernardo" -> "Colectiva Feminista SNBK"	[minlen=1];
+	"San Bernardo" -> "Colectiva Úteras Combativas"	[minlen=2];
+	"San Bernardo" -> "Acriva Nova Vida"	[minlen=1];
+	"San Bernardo" -> "Colectiva Renacer FEM"	[minlen=2];
+	"San Bernardo" -> "Agrupación de Mujeres
+ San Bernardo"	[minlen=1];
+	Alhué -> "FEM Alhué"	[minlen=1];
+	Curacaví -> "8M Feminista Curacaví"	[minlen=1];
+	"Maria Pinto" -> "Asamblea Territorial
+ María Pinto"	[minlen=1];
+	Melipilla -> "Las Violetas"	[minlen=1];
+	Melipilla -> "Colectiva Helena"	[minlen=2];
+	Melipilla -> "Colectiva Macarena
+ Valdés \"La Negra\""	[minlen=1];
+	"El Monte" -> "Colectiva Cabras del Monte"	[minlen=1];
+	"Isla de Maipo" -> "Inquietas (colectiva)"	[minlen=1];
+	"Padre Hurtado" -> "Madre Hurtade"	[minlen=1];
+	Peñaflor -> "Mujeres del Barrio"	[minlen=1];
+	Talagante -> "Feministas en Acción"	[minlen=1];
+	Talagante -> Chúcaras	[minlen=2];
+	Talagante -> Periféricas	[minlen=1];
+}

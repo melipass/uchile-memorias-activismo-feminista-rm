@@ -1,0 +1,27 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Provincia de Melipilla" -> Alhué;
+	"Provincia de Melipilla" -> Curacaví;
+	"Provincia de Melipilla" -> "Maria Pinto";
+	"Provincia de Melipilla" -> Melipilla;
+	"Provincia de Melipilla" -> Melipilla;
+	"Provincia de Melipilla" -> Melipilla;
+	Alhué -> "FEM Alhué"	[minlen=1];
+	Curacaví -> "8M Feminista Curacaví"	[minlen=1];
+	"Maria Pinto" -> "Asamblea Territorial
+María Pinto"	[minlen=1];
+	Melipilla -> "Las Violetas"	[minlen=1];
+	Melipilla -> "Colectiva Helena"	[minlen=2];
+	Melipilla -> "Colectiva Macarena
+Valdés \"La Negra\""	[minlen=1];
+}

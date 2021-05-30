@@ -1,0 +1,38 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Provincia del Maipo" -> Buin;
+	"Provincia del Maipo" -> Buin;
+	"Provincia del Maipo" -> "Calera de Tango";
+	"Provincia del Maipo" -> "Calera de Tango";
+	"Provincia del Maipo" -> "Calera de Tango";
+	"Provincia del Maipo" -> Paine;
+	"Provincia del Maipo" -> Paine;
+	"Provincia del Maipo" -> "San Bernardo";
+	"Provincia del Maipo" -> "San Bernardo";
+	"Provincia del Maipo" -> "San Bernardo";
+	"Provincia del Maipo" -> "San Bernardo";
+	"Provincia del Maipo" -> "San Bernardo";
+	Buin -> "Colectiva Feminista Buin"	[minlen=1];
+	Buin -> "Voces Feministas Buin"	[minlen=2];
+	"Calera de Tango" -> "Alerta Mujeres Calera de Tango"	[minlen=1];
+	"Calera de Tango" -> "Las Guachas de Tango"	[minlen=2];
+	"Calera de Tango" -> "Violetas de Hierro"	[minlen=1];
+	Paine -> "Aquelarre Feminista Paine"	[minlen=1];
+	Paine -> "Coordinadora Feminista Paine"	[minlen=2];
+	"San Bernardo" -> "Colectiva Feminista SNBK"	[minlen=1];
+	"San Bernardo" -> "Colectiva Úteras Combativas"	[minlen=2];
+	"San Bernardo" -> "Acriva Nova Vida"	[minlen=1];
+	"San Bernardo" -> "Colectiva Renacer FEM"	[minlen=2];
+	"San Bernardo" -> "Agrupación de Mujeres
+San Bernardo"	[minlen=1];
+}

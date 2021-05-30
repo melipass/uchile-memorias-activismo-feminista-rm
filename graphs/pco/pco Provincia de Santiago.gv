@@ -1,0 +1,349 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> Cerrillos;
+	"Provincia de Santiago" -> "Cerro Navia";
+	"Provincia de Santiago" -> "Cerro Navia";
+	"Provincia de Santiago" -> "Cerro Navia";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> "Comuna de Santiago";
+	"Provincia de Santiago" -> Conchalí;
+	"Provincia de Santiago" -> Conchalí;
+	"Provincia de Santiago" -> Conchali;
+	"Provincia de Santiago" -> "El Bosque";
+	"Provincia de Santiago" -> "El Bosque";
+	"Provincia de Santiago" -> "El Bosque";
+	"Provincia de Santiago" -> "Estación Central";
+	"Provincia de Santiago" -> Huechuraba;
+	"Provincia de Santiago" -> Independencia;
+	"Provincia de Santiago" -> Independencia;
+	"Provincia de Santiago" -> "La Cisterna";
+	"Provincia de Santiago" -> "La Cisterna";
+	"Provincia de Santiago" -> "La Cisterna";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Florida";
+	"Provincia de Santiago" -> "La Granja";
+	"Provincia de Santiago" -> "La Granja";
+	"Provincia de Santiago" -> "La Granja";
+	"Provincia de Santiago" -> "La Pintana";
+	"Provincia de Santiago" -> "La Pintana";
+	"Provincia de Santiago" -> "La Pintana";
+	"Provincia de Santiago" -> "La Reina";
+	"Provincia de Santiago" -> "La Reina";
+	"Provincia de Santiago" -> "La Reina";
+	"Provincia de Santiago" -> "La Reina";
+	"Provincia de Santiago" -> "La Reina";
+	"Provincia de Santiago" -> "Las Condes";
+	"Provincia de Santiago" -> "Las Condes";
+	"Provincia de Santiago" -> "Las Condes";
+	"Provincia de Santiago" -> "Lo Barnechea";
+	"Provincia de Santiago" -> "Lo Barnechea";
+	"Provincia de Santiago" -> "Lo Barnechea";
+	"Provincia de Santiago" -> "Lo Barnechea";
+	"Provincia de Santiago" -> "Lo Espejo";
+	"Provincia de Santiago" -> "Lo Prado";
+	"Provincia de Santiago" -> Macul;
+	"Provincia de Santiago" -> Macul;
+	"Provincia de Santiago" -> Macul;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Maipú;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> Ñuñoa;
+	"Provincia de Santiago" -> "Pedro Aguirre Cerda";
+	"Provincia de Santiago" -> "Pedro Aguirre Cerda";
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Peñalolen;
+	"Provincia de Santiago" -> Providencia;
+	"Provincia de Santiago" -> Providencia;
+	"Provincia de Santiago" -> Providencia;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Pudahuel;
+	"Provincia de Santiago" -> Quilicura;
+	"Provincia de Santiago" -> "Quinta Normal";
+	"Provincia de Santiago" -> "Quinta Normal";
+	"Provincia de Santiago" -> "Quinta Normal";
+	"Provincia de Santiago" -> "Quinta Normal";
+	"Provincia de Santiago" -> "Quinta Normal";
+	"Provincia de Santiago" -> Recoleta;
+	"Provincia de Santiago" -> Renca;
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Joaquín";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Miguel";
+	"Provincia de Santiago" -> "San Ramón";
+	"Provincia de Santiago" -> Vitacura;
+	"Provincia de Santiago" -> "Zona Norte";
+	"Provincia de Santiago" -> "Zona Oriente";
+	"Provincia de Santiago" -> "Zona Oriente";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	"Provincia de Santiago" -> "Zona Sur";
+	Cerrillos -> "A la Suerte de la Olla"	[minlen=1];
+	Cerrillos -> Cerrilleras	[minlen=2];
+	Cerrillos -> "Asamblea General Cerrillos"	[minlen=1];
+	Cerrillos -> "Movimiento Socioambiental
+Cerrillos (MOSACAT)"	[minlen=2];
+	Cerrillos -> "Cooperativa Popular
+de Apoyo Mutuo"	[minlen=1];
+	Cerrillos -> "Coordinadora Feminista
+Teresa Flores Cerrillos"	[minlen=2];
+	Cerrillos -> "Acción Comunitaria Cerillos"	[minlen=1];
+	Cerrillos -> "Coordinadora Gabriela Paz"	[minlen=2];
+	"Cerro Navia" -> "Asamblea Cerro 
+Navia Feminista"	[minlen=1];
+	"Cerro Navia" -> "Cerro Navia Pedalea"	[minlen=2];
+	"Cerro Navia" -> "Cerro Navia Participa"	[minlen=1];
+	"Comuna de Santiago" -> "Preuniversitario
+Mara Rita"	[minlen=1];
+	"Comuna de Santiago" -> ConcienciaFem	[minlen=2];
+	"Comuna de Santiago" -> "Kilombo Negrocentricxs"	[minlen=1];
+	"Comuna de Santiago" -> "Colectiva Feminista
+Santa Ana"	[minlen=2];
+	"Comuna de Santiago" -> "Lesbodisidentes
+de Abya Yala"	[minlen=1];
+	"Comuna de Santiago" -> "Viaja Segura"	[minlen=2];
+	"Comuna de Santiago" -> "Colectivo Cons-pirando"	[minlen=1];
+	"Comuna de Santiago" -> "Colectivo Agar"	[minlen=2];
+	"Comuna de Santiago" -> "Rangiñtulewfü Colectivo Mapuche
+(Ex Colectivo mapuche feminista Rangiñtulewfü)"	[minlen=1];
+	"Comuna de Santiago" -> "Acción Ecuménica contra la
+violencia hacia las mujeres"	[minlen=2];
+	Conchalí -> "Asociación Mapuche Conchalí"	[minlen=1];
+	Conchalí -> "Olla Común Conchalí"	[minlen=2];
+	Conchali -> "Colectiva Kullay Conchalí"	[minlen=1];
+	"El Bosque" -> "Educación Popular
+en Salud (EPES)"	[minlen=1];
+	"El Bosque" -> "Red Intersectorial de Trabajo
+por la no Violencia contra
+las Mujeres de El Bosque"	[minlen=2];
+	"El Bosque" -> "Bosquinas
+en Movimiento"	[minlen=1];
+	"Estación Central" -> "Red Mujeres
+Estación Central"	[minlen=1];
+	Huechuraba -> "Agrupacion de Allegados
+de Huechuraba"	[minlen=1];
+	Independencia -> "Asamblea Territorial
+de Independencia"	[minlen=1];
+	Independencia -> "Asamblea Plaza San Luis"	[minlen=2];
+	"La Cisterna" -> "Mujeres en Red La Cisterna"	[minlen=1];
+	"La Cisterna" -> "La Cisterna Feminista"	[minlen=2];
+	"La Cisterna" -> "Capuchas moradas
+La Cisterna"	[minlen=1];
+	"La Florida" -> "Red Feminista La Florida"	[minlen=1];
+	"La Florida" -> "Asamblea Feminista
+Maleza Silvestre"	[minlen=2];
+	"La Florida" -> "Asamblea de
+Mujeres Trinidad"	[minlen=1];
+	"La Florida" -> "Circulo Mujeres
+Organizadas"	[minlen=2];
+	"La Florida" -> "Colectiva Sorora"	[minlen=1];
+	"La Florida" -> "Colectivo Teresa Flores"	[minlen=2];
+	"La Granja" -> "Asamblea Popular VUSA"	[minlen=1];
+	"La Granja" -> "Movimiento Femenino
+Bahía Catalina"	[minlen=2];
+	"La Granja" -> "Poder Femenino
+La Granja"	[minlen=1];
+	"La Pintana" -> "Movimiento Feminista
+La Pintana"	[minlen=1];
+	"La Pintana" -> "Casa de la Mujer
+Gabriela"	[minlen=2];
+	"La Pintana" -> "Feministas La Pintana"	[minlen=1];
+	"La Reina" -> "Colectiva Mosaikos"	[minlen=1];
+	"La Reina" -> "Asamblea Jovenes
+La Reina"	[minlen=2];
+	"La Reina" -> "Feministas La Reina"	[minlen=1];
+	"La Reina" -> "Movimiento Mujeres
+La Reina"	[minlen=2];
+	"La Reina" -> "Mesa de Mujeres
+La Reina"	[minlen=1];
+	"Las Condes" -> "Las Irreverentes"	[minlen=1];
+	"Las Condes" -> "Frente Feminista
+Teresa Flores"	[minlen=2];
+	"Las Condes" -> "Fem Las Condes"	[minlen=1];
+	"Lo Barnechea" -> "Red Mujer
+Lo Barnechea"	[minlen=1];
+	"Lo Barnechea" -> "Feministas Barnechea"	[minlen=2];
+	"Lo Barnechea" -> Trawun	[minlen=1];
+	"Lo Barnechea" -> "Agrupación Humedal
+Los Trapenses"	[minlen=2];
+	"Lo Espejo" -> "Colectiva Feminista
+de Lo Espejo"	[minlen=1];
+	"Lo Prado" -> "Pedal Lo Prado"	[minlen=1];
+	Macul -> "Mujeres Organizadas
+VIMA SUR"	[minlen=1];
+	Macul -> "Mujeres de Macul"	[minlen=2];
+	Macul -> "Mujeres Sobreviventes
+Siempre Resistentes"	[minlen=1];
+	Maipú -> "AniMalas Colectiva"	[minlen=1];
+	Maipú -> "Rotas Movilizadas
+Las Parcelas"	[minlen=2];
+	Maipú -> "Asamblea Mujeres
+y Disidencias"	[minlen=1];
+	Maipú -> "Asamblea de Mujeres
+y Disidencias Maipú"	[minlen=2];
+	Maipú -> "Colectiva Gatas Negras"	[minlen=1];
+	Maipú -> "Orgánica Maipú"	[minlen=2];
+	Maipú -> "Asamblea Territorial
+La Farfana"	[minlen=1];
+	Maipú -> "Colectiva AlhueFem"	[minlen=2];
+	Maipú -> "Fémina. Traslado
+Feminsta Maipú"	[minlen=1];
+	Ñuñoa -> "Colectivo Feminista
+Secundario Amanda Labarca
+y Olga Poblete"	[minlen=1];
+	Ñuñoa -> "Feministas Ñuñoa"	[minlen=2];
+	Ñuñoa -> "Feministas Plaza Franke"	[minlen=1];
+	Ñuñoa -> "Grupo de Estudios
+Mujeres Decolonizando"	[minlen=2];
+	Ñuñoa -> "Sororas Cambatientes"	[minlen=1];
+	Ñuñoa -> "Asamblea Feminista
+Villa Frei"	[minlen=2];
+	Ñuñoa -> "Asamblea Feminista
+Plaza Ñuñoa"	[minlen=1];
+	Ñuñoa -> "Asamblea de
+Mujeres Disidentes"	[minlen=2];
+	"Pedro Aguirre Cerda" -> "Asamblea Poblacion Dávila"	[minlen=1];
+	"Pedro Aguirre Cerda" -> "Asamblea Feminista PAC"	[minlen=2];
+	Peñalolen -> "Feministas Lo Hermida"	[minlen=1];
+	Peñalolen -> "CABRAS PEÑA ALTO"	[minlen=2];
+	Peñalolen -> "Coordinadora Feminista
+Peñalolen"	[minlen=1];
+	Peñalolen -> "Comisión de Género del
+Comunal Mario Zamorano
+de Peñalolén"	[minlen=2];
+	Peñalolen -> "Colectiva Feminista
+Ciclo Acción"	[minlen=1];
+	Peñalolen -> "Colectivo de Mujeres
+de Peñalolen"	[minlen=2];
+	Peñalolen -> "MALVA (Movimiento
+Agroecológico por la
+Libertad de las
+Variedades Ancestrales"	[minlen=1];
+	Peñalolen -> "Peña Sorora"	[minlen=2];
+	Peñalolen -> "Pobladoras Lo Hermida"	[minlen=1];
+	Providencia -> "Colectivo Inés de Suarez"	[minlen=1];
+	Providencia -> FEMTEI	[minlen=2];
+	Providencia -> "Feministas Providencia"	[minlen=1];
+	Pudahuel -> "Sororas y revolucionarias
+Pudahuel"	[minlen=1];
+	Pudahuel -> "Asamblea Popular
+de Pudahuel"	[minlen=2];
+	Pudahuel -> "Colectiva Periferikas Pudahuel"	[minlen=1];
+	Pudahuel -> "Colectiva Perra Kiltra"	[minlen=2];
+	Pudahuel -> "Acción Furtar"	[minlen=1];
+	Pudahuel -> "Pedahuel Fem"	[minlen=2];
+	Pudahuel -> "Cletahuel Norte"	[minlen=1];
+	Pudahuel -> "Colectiva Criando Ando"	[minlen=2];
+	Quilicura -> "Resistencia SocioAmbiental
+Quilicura"	[minlen=1];
+	"Quinta Normal" -> "Asamblea Popular Lo Besa"	[minlen=1];
+	"Quinta Normal" -> "Asamblea Territorial QN";
+	"Quinta Normal" -> "Asamblea Territorial QN";
+	"Quinta Normal" -> "Asamblea Barrio Lourdes"	[minlen=2];
+	"Quinta Normal" -> "Asamblea Los Sauces"	[minlen=1];
+	Recoleta -> "Las Pobladoras Recoleta"	[minlen=1];
+	Renca -> "Comité de Mujeres Renca"	[minlen=1];
+	"San Joaquín" -> "Feminsitas Legua"	[minlen=1];
+	"San Joaquín" -> "Comisión de Género
+San Joaquín"	[minlen=2];
+	"San Joaquín" -> "San Joaquin Unidas"	[minlen=1];
+	"San Joaquín" -> "Club Social y Deportivo
+Marielle Franco"	[minlen=2];
+	"San Joaquín" -> "Colectiva Las Joaquinas"	[minlen=1];
+	"San Joaquín" -> "Feministas San Joaquín"	[minlen=2];
+	"San Joaquín" -> "Colectivo Ketra"	[minlen=1];
+	"San Miguel" -> "Coordinadora Autónoma
+contra la Violencia Machista*"	[minlen=1];
+	"San Miguel" -> "Colectiva Berna Castro"	[minlen=2];
+	"San Miguel" -> "Mujeres San Miguel"	[minlen=1];
+	"San Miguel" -> "Círculo Dra. Berna Castro"	[minlen=2];
+	"San Miguel" -> "Unidad Territorial 2
+San Miguel"	[minlen=1];
+	"San Miguel" -> "Mujeres y Disidencias
+Autoconvocadas San Miguel"	[minlen=2];
+	"San Ramón" -> "Mujeres San Ramón"	[minlen=1];
+	Vitacura -> "Circulo Feminista Vitacura"	[minlen=1];
+	"Zona Norte" -> "Coordinadora Feminista
+Norte"	[minlen=1];
+	"Zona Oriente" -> "Unión Secundaria
+de Oriente"	[minlen=1];
+	"Zona Oriente" -> "Colectiva
+Julieta Kirkwood"	[minlen=2];
+	"Zona Sur" -> "Mujeres en Red
+Zona Sur"	[minlen=1];
+	"Zona Sur" -> "Colectiva Teresa Flores"	[minlen=2];
+	"Zona Sur" -> "Colectiva
+Hijas de Obrera"	[minlen=1];
+	"Zona Sur" -> "Colectivo
+Las Violetas Sur"	[minlen=2];
+	"Zona Sur" -> "Feministas del Zur"	[minlen=1];
+	"Zona Sur" -> "Mujeres Cordillera"	[minlen=2];
+	"Zona Sur" -> "ResFem Cordillera"	[minlen=1];
+}

@@ -1,0 +1,27 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Provincia de Talagante" -> "El Monte";
+	"Provincia de Talagante" -> "Isla de Maipo";
+	"Provincia de Talagante" -> "Padre Hurtado";
+	"Provincia de Talagante" -> Peñaflor;
+	"Provincia de Talagante" -> Talagante;
+	"Provincia de Talagante" -> Talagante;
+	"Provincia de Talagante" -> Talagante;
+	"El Monte" -> "Colectiva Cabras del Monte"	[minlen=1];
+	"Isla de Maipo" -> "Inquietas (colectiva)"	[minlen=1];
+	"Padre Hurtado" -> "Madre Hurtade"	[minlen=1];
+	Peñaflor -> "Mujeres del Barrio"	[minlen=1];
+	Talagante -> "Feministas en Acción"	[minlen=1];
+	Talagante -> Chúcaras	[minlen=2];
+	Talagante -> Periféricas	[minlen=1];
+}

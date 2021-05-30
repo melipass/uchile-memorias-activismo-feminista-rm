@@ -1,0 +1,203 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Nivel Nacional" -> Agrupación;
+	"Nivel Nacional" -> Agrupación;
+	"Nivel Nacional" -> Asociación;
+	"Nivel Nacional" -> Asociación;
+	"Nivel Nacional" -> Asociación;
+	"Nivel Nacional" -> Asociación;
+	"Nivel Nacional" -> Asociación;
+	"Nivel Nacional" -> Colectiva;
+	"Nivel Nacional" -> Colectiva;
+	"Nivel Nacional" -> Colectiva;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Colectivo;
+	"Nivel Nacional" -> Comunidad;
+	"Nivel Nacional" -> Cooperativa;
+	"Nivel Nacional" -> Coordinadora;
+	"Nivel Nacional" -> Coordinadora;
+	"Nivel Nacional" -> Coordinadora;
+	"Nivel Nacional" -> Corporación;
+	"Nivel Nacional" -> Corporación;
+	"Nivel Nacional" -> "Difusión de Información";
+	"Nivel Nacional" -> "Difusión de Información";
+	"Nivel Nacional" -> "Difusión de Información";
+	"Nivel Nacional" -> "Difusión de Información";
+	"Nivel Nacional" -> "Difusión de Información";
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Fundación;
+	"Nivel Nacional" -> Movimiento;
+	"Nivel Nacional" -> Observatorio;
+	"Nivel Nacional" -> Observatorio;
+	"Nivel Nacional" -> Observatorio;
+	"Nivel Nacional" -> Observatorio;
+	"Nivel Nacional" -> ONG;
+	"Nivel Nacional" -> ONG;
+	"Nivel Nacional" -> ONG;
+	"Nivel Nacional" -> Organización;
+	"Nivel Nacional" -> Organización;
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización de la Sociedad Civil";
+	"Nivel Nacional" -> "Organización Gubernamental";
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> Red;
+	"Nivel Nacional" -> "Red Internacional";
+	"Nivel Nacional" -> Sindicato;
+	Agrupación -> "Agrupación Lésbica
+Rompiendo el Silencio"	[minlen=1];
+	Agrupación -> "Agrupación Familiares
+Victimas de Femicidio"	[minlen=2];
+	Asociación -> "Asociación de Abogadas
+Feministas de Chile ABOFEM"	[minlen=1];
+	Asociación -> "Asociación Nacional Jugadoras
+de Fútbol Femenino
+en Chile ANJUFF"	[minlen=2];
+	Asociación -> "Geógrafas Chile"	[minlen=1];
+	Asociación -> "Asociación Yo Cuido"	[minlen=2];
+	Asociación -> "Asociación de Mujeres
+Rurales e Indígenas ANAMURI"	[minlen=1];
+	Colectiva -> "La Sihembra"	[minlen=1];
+	Colectiva -> Lumbre	[minlen=2];
+	Colectiva -> "Colectiva Brotar"	[minlen=1];
+	Colectivo -> "Colectivo Sin Fronteras Chile"	[minlen=1];
+	Colectivo -> "Colectivo Educadoras/es
+Empoderadas/os"	[minlen=2];
+	Colectivo -> "Kolectivo Poroto"	[minlen=1];
+	Colectivo -> "Colectiva Mecha"	[minlen=2];
+	Colectivo -> "Colectiva Feminista
+Radical Chile"	[minlen=1];
+	Colectivo -> "Autoras Chilenas (AUCH)"	[minlen=2];
+	Comunidad -> "Lesbodisidentes de Abya Yala"	[minlen=1];
+	Cooperativa -> "Cooperativa Desbordada"	[minlen=1];
+	Coordinadora -> "Marcha Mundial
+de las Mujeres"	[minlen=1];
+	Coordinadora -> "Coordinadora Nacional de Inmigrantes"	[minlen=2];
+	Coordinadora -> "Frente Feminista
+Convergencia Social"	[minlen=1];
+	Corporación -> "La Morada"	[minlen=1];
+	Corporación -> "Corporación Humanas"	[minlen=2];
+	"Difusión de Información" -> "Radio Tierra"	[minlen=1];
+	"Difusión de Información" -> "Feministas Constituyentes"	[minlen=2];
+	"Difusión de Información" -> Mistralianas	[minlen=1];
+	"Difusión de Información" -> "Nada sin Nosotras"	[minlen=2];
+	"Difusión de Información" -> "Feministas en Chile FEMCHI"	[minlen=1];
+	Fundación -> "Fundación Margen"	[minlen=1];
+	Fundación -> "Fundación Iguales"	[minlen=2];
+	Fundación -> "Fundación Chile Positivo"	[minlen=1];
+	Fundación -> "Fundación Crea Equidad"	[minlen=2];
+	Fundación -> "Fundación Datos Protegidos"	[minlen=1];
+	Fundación -> "Fundación GeroActivismo"	[minlen=2];
+	Fundación -> "Fundación Antonia"	[minlen=1];
+	Fundación -> "Fundación Nellie Zabel"	[minlen=2];
+	Fundación -> "Fundación Chile Literal"	[minlen=1];
+	Fundación -> "Vértice Urbano"	[minlen=2];
+	Movimiento -> "Movimiento Político
+Chile Feminista"	[minlen=1];
+	Observatorio -> "Centro de Estudios
+de la Mujer"	[minlen=1];
+	Observatorio -> "Observatorio de
+Violencia Obstétrica OVO"	[minlen=2];
+	Observatorio -> "Observatorio RedFem"	[minlen=1];
+	Observatorio -> "Observatorio de
+Género y Equidad OGE"	[minlen=2];
+	ONG -> "Sociedad Chilena
+de Sexualidades"	[minlen=1];
+	ONG -> "ONU Mujeres"	[minlen=2];
+	ONG -> "Amaranta ONG"	[minlen=1];
+	Organización -> VisibLES	[minlen=1];
+	Organización -> CEVVIH	[minlen=2];
+	"Organización de la Sociedad Civil" -> "INS Mujeres Chile"	[minlen=1];
+	"Organización de la Sociedad Civil" -> "Comunidad Mujer"	[minlen=2];
+	"Organización de la Sociedad Civil" -> "Nosotras Audiovisuales"	[minlen=1];
+	"Organización de la Sociedad Civil" -> "Defensoría de la Niñez"	[minlen=2];
+	"Organización de la Sociedad Civil" -> "NiUnaMenos-Chile"	[minlen=1];
+	"Organización de la Sociedad Civil" -> "Somos Aurora"	[minlen=2];
+	"Organización Gubernamental" -> "Agenda de Género - Chile"	[minlen=1];
+	Red -> "Mujeres Líderes"	[minlen=1];
+	Red -> "Asociación Red
+de Investigadoras"	[minlen=2];
+	Red -> "Red de Profesor@s
+de Filosofía de Chile REPROFICH"	[minlen=1];
+	Red -> "Red de
+Historiadoras Feministas"	[minlen=2];
+	Red -> "Programa Ingeniosas"	[minlen=1];
+	Red -> "Mujeres en el Medio"	[minlen=2];
+	Red -> "Red Feminista del Libro"	[minlen=1];
+	Red -> "Red Docentes
+Feministas REDOFEM"	[minlen=2];
+	Red -> "Red de Actrices
+de Chile RACH"	[minlen=1];
+	Red -> "Red Periodistas
+Feministas Chile PERIOFEM"	[minlen=2];
+	Red -> "Enfermeras Feministas Chile"	[minlen=1];
+	Red -> "Red Mujeres Mapuches"	[minlen=2];
+	Red -> "Red Diversa"	[minlen=1];
+	Red -> "Red Refugiades y
+Migrantes LGTBIQ+ en Chile"	[minlen=2];
+	Red -> "Red Feminista de
+trabajadoras y estudiantes
+de Salud de Chile"	[minlen=1];
+	Red -> "Red Gerofeminista"	[minlen=2];
+	Red -> "Red de Filósofas
+Feministas en Chile"	[minlen=1];
+	Red -> MISOFEM	[minlen=2];
+	Red -> "Miles Chile"	[minlen=1];
+	Red -> "Fundación Hay Mujeres"	[minlen=2];
+	Red -> Ciberseguras	[minlen=1];
+	Red -> "Católicas por el
+Derecho a Decidir"	[minlen=2];
+	Red -> "Bolsa de Trabajo Feminista"	[minlen=1];
+	Red -> "Ciudad Feminista"	[minlen=2];
+	"Red Internacional" -> "Women in Global
+Health Chile"	[minlen=1];
+	Sindicato -> "Sindicato de Trabajadoras
+de Casa Particular SINTRACAP"	[minlen=1];
+}

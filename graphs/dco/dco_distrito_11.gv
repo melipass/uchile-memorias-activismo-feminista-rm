@@ -1,0 +1,77 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	11 -> "La Reina";
+	11 -> "La Reina";
+	11 -> "La Reina";
+	11 -> "La Reina";
+	11 -> "La Reina";
+	11 -> "Las Condes";
+	11 -> "Las Condes";
+	11 -> "Las Condes";
+	11 -> "Lo Barnechea";
+	11 -> "Lo Barnechea";
+	11 -> "Lo Barnechea";
+	11 -> "Lo Barnechea";
+	11 -> Vitacura;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> Peñalolen;
+	11 -> "Zona Oriente";
+	11 -> "Zona Oriente";
+	"La Reina" -> "Colectiva Mosaikos"	[minlen=1];
+	"La Reina" -> "Asamblea Jovenes
+ La Reina"	[minlen=2];
+	"La Reina" -> "Feministas La Reina"	[minlen=1];
+	"La Reina" -> "Movimiento Mujeres
+ La Reina"	[minlen=2];
+	"La Reina" -> "Mesa de Mujeres
+ La Reina"	[minlen=1];
+	"Las Condes" -> "Las Irreverentes"	[minlen=1];
+	"Las Condes" -> "Frente Feminista
+ Teresa Flores"	[minlen=2];
+	"Las Condes" -> "Fem Las Condes"	[minlen=1];
+	"Lo Barnechea" -> "Red Mujer
+ Lo Barnechea"	[minlen=1];
+	"Lo Barnechea" -> "Feministas Barnechea"	[minlen=2];
+	"Lo Barnechea" -> Trawun	[minlen=1];
+	"Lo Barnechea" -> "Agrupación Humedal
+ Los Trapenses"	[minlen=2];
+	Vitacura -> "Circulo Feminista Vitacura"	[minlen=1];
+	Peñalolen -> "Feministas Lo Hermida"	[minlen=1];
+	Peñalolen -> "CABRAS PEÑA ALTO"	[minlen=2];
+	Peñalolen -> "Coordinadora Feminista
+ Peñalolen"	[minlen=1];
+	Peñalolen -> "Comisión de Género del
+ Comunal Mario Zamorano
+ de Peñalolén"	[minlen=2];
+	Peñalolen -> "Colectiva Feminista
+ Ciclo Acción"	[minlen=1];
+	Peñalolen -> "Colectivo de Mujeres
+ de Peñalolen"	[minlen=2];
+	Peñalolen -> "MALVA (Movimiento
+ Agroecológico por la
+ Libertad de las
+ Variedades Ancestrales"	[minlen=1];
+	Peñalolen -> "Peña Sorora"	[minlen=2];
+	Peñalolen -> "Pobladoras Lo Hermida"	[minlen=1];
+	"Zona Oriente" -> "Unión Secundaria
+ de Oriente"	[minlen=1];
+	"Zona Oriente" -> "Colectiva
+ Julieta Kirkwood"	[minlen=2];
+}

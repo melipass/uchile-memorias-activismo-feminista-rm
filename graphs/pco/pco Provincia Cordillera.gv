@@ -1,0 +1,50 @@
+digraph {
+	graph [K=4,
+		nodesep=0,
+		overlap=false,
+		pad=1,
+		rankdir=LR,
+		repulsiveforce=1
+	];
+	node [color=lavender,
+		fontsize=36,
+		style=filled
+	];
+	"Provincia Cordillera" -> Pirque;
+	"Provincia Cordillera" -> Pirque;
+	"Provincia Cordillera" -> Pirque;
+	"Provincia Cordillera" -> "Puente Alto";
+	"Provincia Cordillera" -> "Puente Alto";
+	"Provincia Cordillera" -> "Puente Alto";
+	"Provincia Cordillera" -> "Puente Alto";
+	"Provincia Cordillera" -> "Puente Alto";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	"Provincia Cordillera" -> "San José de Maipo";
+	Pirque -> "Feministas x Pirque"	[minlen=1];
+	Pirque -> "Colectiva Rural
+La Trenza"	[minlen=2];
+	Pirque -> "Feministas Pirque"	[minlen=1];
+	"Puente Alto" -> "AFEM Puente Alto"	[minlen=1];
+	"Puente Alto" -> "Colectiva Alba Violeta"	[minlen=2];
+	"Puente Alto" -> "Red de Mujeres de 
+Puente Alto por La
+Igualdad de Derechos"	[minlen=1];
+	"Puente Alto" -> "Las Candelarias
+Puente Alto"	[minlen=2];
+	"Puente Alto" -> "Paquenu Puente Alto"	[minlen=1];
+	"San José de Maipo" -> "Ni Una Menos
+Población Victoria"	[minlen=1];
+	"San José de Maipo" -> "Jovenes Cajoninas"	[minlen=2];
+	"San José de Maipo" -> "Resistencia Feminista Maipo"	[minlen=1];
+	"San José de Maipo" -> "Mujeres del Maipo"	[minlen=2];
+	"San José de Maipo" -> "Colectivo Vamos Mujer"	[minlen=1];
+	"San José de Maipo" -> "Apruebo Mujer
+San José de Maipo"	[minlen=2];
+	"San José de Maipo" -> "Mesa de Mujeres
+Cajón del Maipo"	[minlen=1];
+}
